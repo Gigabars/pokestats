@@ -533,5 +533,5 @@ else
 
 //finaly the ability box
 var ab = document.querySelector("#abilitybox").value;
-document.querySelector("#Abilitysout").textContent = "Abilitys: " + ab;
+document.querySelector("#Abilitysout").textContent = "Abilities: " + ab;
 }
