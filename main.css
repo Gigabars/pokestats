@@ -1,0 +1,29 @@
+body {
+    background-color: #2c3444;
+    text-align: center;
+    color: white;
+    text-shadow: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#hpout, #atkout, #spatkout, #defout, #spdefout, #speedout
+{
+    font-weight: bold;
+}
+statBar {
+    background-color: #2c3444;
+}
+.typingformat
+{
+    border-radius: 8px;
+    border: none;
+    color: black;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.discordcolor
+{
+    background-color: #36393f;
+}

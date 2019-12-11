@@ -1,0 +1,118 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+        <link rel="stylesheet" type="text/css" href="typing.css">
+        <script type="text/javascript" src="value.js"></script>  
+    </head>
+    <body>
+        <h1 class="center">Pokemon Stat Maker</h1>
+        <p>Name</p>
+        <input id='namebox'>
+        <p>Hp</p>
+        <input id="hpbox">
+        <p>Attack</p>
+        <input id='atkbox'>
+        <p>Defense</p>
+        <input  id='defbox'>
+        <p>Sp.Attack</p>
+        <input id='spatkbox'>
+        <p>Sp.Defense</p>
+        <input id='spdefbox'>
+        <p>Speed</p>
+        <input id='speedbox'>
+        <p>Link to Image</p>
+        <input id='imgbox'>
+        <p>Type 1</p>
+        <input id='type1box'>
+        <p>Type 2</p>
+        <input id='type2box'>
+        <p>Abilitys</p>
+        <input id='abilitybox'>
+        <p></p>
+        <button onclick='genstats()'>Submit</button>
+        <div class="discordcolor">
+        <p id='test'></p>
+        <div id="statdev">
+            <br />
+            <img id="pokeimg" src="pokeball.png" width="200" height="200" style="float: left; margin-left: 400px;">
+            <p id="nameout" style="float: left; margin-left: 40px; font-weight: bold;">Name</p>
+            <button style="float: left; margin-left: 15px; margin-top: 40px; font-weight: bold;" id="ty-what" class="typingformat type1">???</button>
+            <button style="float: left; margin-left: 0px; margin-top: 40px; font-weight: bold;" id="ty-what" class="typingformat type2">???</button>
+            <p style="float: left; margin-left: 0px; margin-top: 120px; font-weight: bold;" id="Abilitysout">Abilities:</p>
+            </div>
+            <table width="100%" class="discordcolor" border="0">
+            <tr>
+               <td width='200px'>
+                  <div style="width:25%; float:left; text-align:right;">
+                     HP:&nbsp;
+                  </div>
+                  <div class="statbar" style="width:50%; float:left; margin-top:1px;">
+                     <div class="w3-orange w3-center w3-round" id="hpout" style="height:20px; width:30%;">60</div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td width='200px'>
+                  <div style="width:25%; float:left; text-align:right;">
+                     Attack:&nbsp;
+                  </div>
+                  <div class="statbar" style="width:50%; float:left; margin-top:1px;">
+                     <div class="w3-orange w3-center w3-round" id="atkout" style="height:20px; width:30%;">60</div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td width='200px'>
+                  <div style="width:25%; float:left; text-align:right;">
+                     Defense:&nbsp;
+                  </div>
+                  <div class="statbar" style="width:50%; float:left; margin-top:1px;">
+                     <div class="w3-orange w3-center w3-round" id="defout" style="height:20px; width:30%;">60</div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td width='200px'>
+                  <div style="width:25%; float:left; text-align:right;">
+                     Sp.Atk:&nbsp;
+                  </div>
+                  <div class="statbar" style="width:50%; float:left; margin-top:1px;">
+                     <div class="w3-orange w3-center w3-round" id="spatkout" style="height:20px; width:30%;">60</div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td width='200px'>
+                  <div style="width:25%; float:left; text-align:right;">
+                     Sp.Def:&nbsp;
+                  </div>
+                  <div class="statbar" style="width:50%; float:left; margin-top:1px;">
+                     <div class="w3-orange w3-center w3-round" id="spdefout" style="height:20px; width:30%;">60</div>
+                  </div>
+               </td>
+            </tr>
+            </tr>        
+            <tr>
+               <td width='200px'>
+                  <div style="width:25%; float:left; text-align:right;">
+                     Speed:&nbsp;
+                  </div>
+                  <div class="statbar" style="width:50%; float:left; margin-top:1px;">
+                     <div class="w3-orange w3-center w3-round " id="speedout" style="height:20px; width:30%;">60</div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td width='200px'>
+                  <div style="width:25%; float:left; text-align:right;">
+                     Total:&nbsp;
+                  </div>
+                  <div class="statbar" style="width:50%; float:left; margin-top:1px; margin-bottom: 50px;">
+                     <div style="font-weight: bold;" id="totalout">300</div>
+                  </div>
+               </td>
+            </tr>
+        </div>
+    </body>
+</html>
