@@ -1,15 +1,14 @@
 #ty-normal
 {
     background-color: #aaaa99;
-
 }
 #ty-fire
 {
-background-color: #ff4422;
+    background-color: #ff4422;
 }
 #ty-water
 {
- background-color: #3399ff;
+    background-color: #3399ff;
 }
 #ty-electric
 {
@@ -17,9 +16,7 @@ background-color: #ff4422;
 }
 #ty-grass
 {
-
     background-color: #68b741;
-
 }
 #ty-ice
 {
@@ -40,7 +37,6 @@ background-color: #ff4422;
 #ty-flying
 {
     background-color: #8899ff;
-
 }
 #ty-psychic
 {

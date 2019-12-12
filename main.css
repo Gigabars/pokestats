@@ -5,25 +5,37 @@ body {
     text-shadow: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-#hpout, #atkout, #spatkout, #defout, #spdefout, #speedout
+#hpout, #atkout, #spatkout, #defout, #spdefout, #speedout, .bold
 {
     font-weight: bold;
 }
-statBar {
-    background-color: #2c3444;
-}
 .typingformat
 {
-    border-radius: 8px;
     border: none;
     color: black;
+    border-radius: 8px;
     padding: 8px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+     margin-left: 15px;
+      margin-top: 40px;
+       font-weight: bold;
 }
 .discordcolor
 {
     background-color: #36393f;
+}
+.typingformatsmall
+{
+    border: none;
+    color: black;
+    border-radius: 8px;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+       font-weight: bold;
 }

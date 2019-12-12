@@ -534,4 +534,9 @@ else
 //finaly the ability box
 var ab = document.querySelector("#abilitybox").value;
 document.querySelector("#Abilitysout").textContent = "Abilities: " + ab;
+
+
+
+//Cal for weekness.js
+weakness();
 }
