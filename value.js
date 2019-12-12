@@ -47,42 +47,50 @@ hpout.style.width = hpint + "%";
 if (between(hpintclean, 1, 45))
 {
     hpout.classList.add("w3-red");
+    hpout.style.boxShadow = "inset 0 -2px #cc0000";
     hpout.classList.remove("w3-deep-orange","w3-orange","w3-yellow","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 
 }
 else if (between(hpintclean, 46, 60))
 {
     hpout.classList.add("w3-deep-orange");
+    hpout.style.boxShadow = "inset 0 -2px #cb3001";
     hpout.classList.remove("w3-red","w3-orange","w3-yellow","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(hpintclean, 61, 90))
 {
     hpout.classList.add("w3-orange");
+    hpout.style.boxShadow = "inset 0 -2px #b36b00";
     hpout.classList.remove("w3-red","w3-deep-orange","w3-yellow","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(hpintclean, 91, 110))
 {
     hpout.classList.add("w3-yellow");
+    hpout.style.boxShadow = "inset 0 -2px #ccb400";
     hpout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(hpintclean, 111, 140))
 {
     hpout.classList.add("w3-lime");
+    hpout.style.boxShadow = "inset 0 -2px #a1ac20";
     hpout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(hpintclean, 141, 160))
 {
     hpout.classList.add("w3-light-green");
+    hpout.style.boxShadow = "inset 0 -2px #5f832f";
     hpout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-lime", "w3-green", "w3-aqua");
 }
 else if (between(hpintclean, 161, 199))
 {
     hpout.classList.add("w3-green");
+    hpout.style.boxShadow = "inset 0 -2px #367c39";
     hpout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-lime", "w3-light-green", "w3-aqua");
 }
 else if (between(hpintclean, 200, 255))
 {
     hpout.classList.add("w3-aqua");
+    hpout.style.boxShadow = "inset 0 -2px #00b3b3";
     hpout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-lime", "w3-light-green", "w3-green");
 }
 //Atk formating
@@ -93,42 +101,50 @@ atkout.style.width = atkint + "%";
 if (between(atkintclean, 1, 45))
 {
     atkout.classList.add("w3-red");
+    atkout.style.boxShadow = "inset 0 -2px #cc0000";
     atkout.classList.remove("w3-deep-orange","w3-orange","w3-yellow","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 
 }
 else if (between(atkintclean, 46, 60))
 {
     atkout.classList.add("w3-deep-orange");
+    atkout.style.boxShadow = "inset 0 -2px #cb3001";
     atkout.classList.remove("w3-red","w3-orange","w3-yellow","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(atkintclean, 61, 90))
 {
     atkout.classList.add("w3-orange");
+    atkout.style.boxShadow = "inset 0 -2px #b36b00";
     atkout.classList.remove("w3-red","w3-deep-orange","w3-yellow","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(atkintclean, 91, 110))
 {
     atkout.classList.add("w3-yellow");
+    atkout.style.boxShadow = "inset 0 -2px #ccb400";
     atkout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(atkintclean, 111, 140))
 {
     atkout.classList.add("w3-lime");
+    atkout.style.boxShadow = "inset 0 -2px #a1ac20";
     atkout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(atkintclean, 141, 160))
 {
     atkout.classList.add("w3-light-green");
+    atkout.style.boxShadow = "inset 0 -2px #5f832f";
     atkout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-lime", "w3-green", "w3-aqua");
 }
 else if (between(atkintclean, 161, 199))
 {
     atkout.classList.add("w3-green");
+    atkout.style.boxShadow = "inset 0 -2px #367c39";
     atkout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-lime", "w3-light-green", "w3-aqua");
 }
 else if (between(atkintclean, 200, 255))
 {
     atkout.classList.add("w3-aqua");
+    atkout.style.boxShadow = "inset 0 -2px #00b3b3";
     atkout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-lime", "w3-light-green", "w3-green");
 }
 //def formating
@@ -139,42 +155,50 @@ defout.style.width = defint + "%";
 if (between(defintclean, 1, 45))
 {
     defout.classList.add("w3-red");
+    defout.style.boxShadow = "inset 0 -2px #cc0000";
     defout.classList.remove("w3-deep-orange","w3-orange","w3-yellow","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 
 }
 else if (between(defintclean, 46, 60))
 {
     defout.classList.add("w3-deep-orange");
+    defout.style.boxShadow = "inset 0 -2px #cb3001";
     defout.classList.remove("w3-red","w3-orange","w3-yellow","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(defintclean, 61, 90))
 {
     defout.classList.add("w3-orange");
+    defout.style.boxShadow = "inset 0 -2px #b36b00";
     defout.classList.remove("w3-red","w3-deep-orange","w3-yellow","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(defintclean, 91, 110))
 {
     defout.classList.add("w3-yellow");
+    defout.style.boxShadow = "inset 0 -2px #ccb400";
     defout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(defintclean, 111, 140))
 {
     defout.classList.add("w3-lime");
+    defout.style.boxShadow = "inset 0 -2px #a1ac20";
     defout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(defintclean, 141, 160))
 {
     defout.classList.add("w3-light-green");
+    defout.style.boxShadow = "inset 0 -2px #5f832f";
     defout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-lime", "w3-green", "w3-aqua");
 }
 else if (between(defintclean, 161, 199))
 {
     defout.classList.add("w3-green");
+    defout.style.boxShadow = "inset 0 -2px #367c39";
     defout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-lime", "w3-light-green", "w3-aqua");
 }
 else if (between(defintclean, 200, 255))
 {
     defout.classList.add("w3-aqua");
+    defout.style.boxShadow = "inset 0 -2px #00b3b3";
     defout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-lime", "w3-light-green", "w3-green");
 }
 //Atk formating
@@ -185,42 +209,50 @@ spatkout.style.width = spatkint + "%";
 if (between(spatkoutclean, 1, 45))
 {
     spatkout.classList.add("w3-red");
+    spatkout.style.boxShadow = "inset 0 -2px #cc0000";
     spatkout.classList.remove("w3-deep-orange","w3-orange","w3-yellow","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 
 }
 else if (between(spatkoutclean, 46, 60))
 {
     spatkout.classList.add("w3-deep-orange");
+    spatkout.style.boxShadow = "inset 0 -2px #cb3001";
     spatkout.classList.remove("w3-red","w3-orange","w3-yellow","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(spatkoutclean, 61, 90))
 {
     spatkout.classList.add("w3-orange");
+    spatkout.style.boxShadow = "inset 0 -2px #b36b00";
     spatkout.classList.remove("w3-red","w3-deep-orange","w3-yellow","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(spatkoutclean, 91, 110))
 {
     spatkout.classList.add("w3-yellow");
+    spatkout.style.boxShadow = "inset 0 -2px #ccb400";
     spatkout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(spatkoutclean, 111, 140))
 {
     spatkout.classList.add("w3-lime");
+    spatkout.style.boxShadow = "inset 0 -2px #a1ac20";
     spatkout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(spatkoutclean, 141, 160))
 {
     spatkout.classList.add("w3-light-green");
+    spatkout.style.boxShadow = "inset 0 -2px #5f832f";
     spatkout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-lime", "w3-green", "w3-aqua");
 }
 else if (between(spatkoutclean, 161, 199))
 {
     spatkout.classList.add("w3-green");
+    spatkout.style.boxShadow = "inset 0 -2px #367c39";
     spatkout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-lime", "w3-light-green", "w3-aqua");
 }
 else if (between(spatkoutclean, 200, 255))
 {
     spatkout.classList.add("w3-aqua");
+    spatkout.style.boxShadow = "inset 0 -2px #00b3b3";
     spatkout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-lime", "w3-light-green", "w3-green");
 }
 //spDef formating
@@ -231,42 +263,50 @@ spdefout.style.width = spdefint + "%";
 if (between(spdefoutclean, 1, 45))
 {
     spdefout.classList.add("w3-red");
+    spdefout.style.boxShadow = "inset 0 -2px #cc0000";
     spdefout.classList.remove("w3-deep-orange","w3-orange","w3-yellow","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 
 }
 else if (between(spdefoutclean, 46, 60))
 {
     spdefout.classList.add("w3-deep-orange");
+    spdefout.style.boxShadow = "inset 0 -2px #cb3001";
     spdefout.classList.remove("w3-red","w3-orange","w3-yellow","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(spdefoutclean, 61, 90))
 {
     spdefout.classList.add("w3-orange");
+    spdefout.style.boxShadow = "inset 0 -2px #b36b00";
     spdefout.classList.remove("w3-red","w3-deep-orange","w3-yellow","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(spdefoutclean, 91, 110))
 {
     spdefout.classList.add("w3-yellow");
+    spdefout.style.boxShadow = "inset 0 -2px #ccb400";
     spdefout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(spdefoutclean, 111, 140))
 {
     spdefout.classList.add("w3-lime");
+    spdefout.style.boxShadow = "inset 0 -2px #a1ac20";
     spdefout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(spdefoutclean, 141, 160))
 {
     spdefout.classList.add("w3-light-green");
+    spdefout.style.boxShadow = "inset 0 -2px #5f832f";
     spdefout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-lime", "w3-green", "w3-aqua");
 }
 else if (between(spdefoutclean, 161, 199))
 {
     spdefout.classList.add("w3-green");
+    spdefout.style.boxShadow = "inset 0 -2px #367c39";
     spdefout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-lime", "w3-light-green", "w3-aqua");
 }
 else if (between(spdefoutclean, 200, 255))
 {
     spdefout.classList.add("w3-aqua");
+    spdefout.style.boxShadow = "inset 0 -2px #00b3b3";
     spdefout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-lime", "w3-light-green", "w3-green");
 }
 //Speed formating
@@ -277,42 +317,50 @@ speedout.style.width = speedint + "%";
 if (between(speedoutclean, 1, 45))
 {
     speedout.classList.add("w3-red");
+    speedout.style.boxShadow = "inset 0 -2px #cc0000";
     speedout.classList.remove("w3-deep-orange","w3-orange","w3-yellow","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 
 }
 else if (between(speedoutclean, 46, 60))
 {
     speedout.classList.add("w3-deep-orange");
+    speedout.style.boxShadow = "inset 0 -2px #cb3001";
     speedout.classList.remove("w3-red","w3-orange","w3-yellow","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(speedoutclean, 61, 90))
 {
     speedout.classList.add("w3-orange");
+    speedout.style.boxShadow = "inset 0 -2px #b36b00";
     speedout.classList.remove("w3-red","w3-deep-orange","w3-yellow","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(speedoutclean, 91, 110))
 {
     speedout.classList.add("w3-yellow");
+    speedout.style.boxShadow = "inset 0 -2px #ccb400";
     speedout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-lime","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(speedoutclean, 111, 140))
 {
     speedout.classList.add("w3-lime");
+    speedout.style.boxShadow = "inset 0 -2px #a1ac20";
     speedout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-light-green", "w3-green", "w3-aqua");
 }
 else if (between(speedoutclean, 141, 160))
 {
     speedout.classList.add("w3-light-green");
+    speedout.style.boxShadow = "inset 0 -2px #5f832f";
     speedout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-lime", "w3-green", "w3-aqua");
 }
 else if (between(speedoutclean, 161, 199))
 {
     speedout.classList.add("w3-green");
+    speedout.style.boxShadow = "inset 0 -2px #367c39";
     speedout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-lime", "w3-light-green", "w3-aqua");
 }
 else if (between(speedoutclean, 200, 255))
 {
     speedout.classList.add("w3-aqua");
+    speedout.style.boxShadow = "inset 0 -2px #00b3b3";
     speedout.classList.remove("w3-red","w3-deep-orange","w3-orange","w3-yellow","w3-lime", "w3-light-green", "w3-green");
 }
 //Code to set TOTAL stat number.
