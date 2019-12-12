@@ -165,7 +165,6 @@ fighting = -1;
 poison = -1;
 ground = 1;
 psychic = 1;
-bug = 1;
 fairy = -1;
 }
 else if (type1out == "ground")
