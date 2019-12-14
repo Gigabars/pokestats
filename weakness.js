@@ -230,7 +230,7 @@ else if (type1out == "dragon")
     water = -1;
     electric = -1;
     grass = -1;
-    ice = -1;
+    ice = 1;
     dragon = 1;
     fairy = 1;
 }
@@ -404,7 +404,7 @@ else if (type2out == "dragon")
     water += -1;
     electric += -1;
     grass += -1;
-    ice += -1;
+    ice += 1;
     dragon += 1;
     fairy += 1;
 }
