@@ -414,7 +414,7 @@ type1box.textContent = "Grass";
 else if (type1out == "ice")
 {
 type1box.id = "ty-ice";
-type1box.textContent = "ice";
+type1box.textContent = "Ice";
 }
 else if (type1out == "fighting")
 {
@@ -511,7 +511,7 @@ type2box.textContent = "Grass";
 else if (type2out == "ice")
 {
 type2box.id = "ty-ice";
-type2box.textContent = "ice";
+type2box.textContent = "Ice";
 }
 else if (type2out == "fighting")
 {
