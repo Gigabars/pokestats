@@ -1,26 +1,23 @@
-var page = 1;
-
+var page = 0;
+function finish()
+{
+    var type1out = document.querySelector("#type1box").style.display="none";
+    var type2out = document.querySelector("#type2box").style.display="none";
+}
 function pageturn()
 {
-//page = page + 1;
+page = page + 1;
 switch(page) {
-//name
 case 1:
-//This should never happen. If it does well then I broke it.
-alert("Error! Something went wrong.");
+    var name = document.querySelector("#namebox");
+    name = name.value;
+    document.getElementById('namebox').style.display='none';
 break;
-//typing
 case 2:
-
-
-
-
+    type1out = document.querySelector("#type1box").value;
+alert(type1out);
 break;
-// stats
 case 3:
-
-
-
 
 
 break;

@@ -7,11 +7,51 @@
     <script type="text/javascript" src="value.js"></script>
     <script type="text/javascript" src="pageturn.js"></script>
     </head> 
-    <body>
+    <body onload="finish()">
         <h1 class="center">Pokemon Stat Maker</h1>
         <div>What is the name of the pokemon?</div>
         <input id='namebox'>
-        <button class='typingformat' onclick='next()'>Next</button>
+        <select id="type1box">
+            <option>Normal</option>
+            <option>Fire</option>
+            <option>Water</option>
+            <option>Electric</option>
+            <option>Grass</option>
+            <option>Ice</option>
+            <option>Fighting</option>
+            <option>Poison</option>
+            <option>Ground</option>
+            <option>Flying</option>
+            <option>Psychic</option>
+            <option>Bug</option>
+            <option>Rock</option>
+            <option>Ghost</option>
+            <option>Dragon</option>
+            <option>Dark</option>
+            <option>Steel</option>
+            <option>Fairy</option>
+        </select>
+        <select id="type2box">
+            <option>Normal</option>
+            <option>Fire</option>
+            <option>Water</option>
+            <option>Electric</option>
+            <option>Grass</option>
+            <option>Ice</option>
+            <option>Fighting</option>
+            <option>Poison</option>
+            <option>Ground</option>
+            <option>Flying</option>
+            <option>Psychic</option>
+            <option>Bug</option>
+            <option>Rock</option>
+            <option>Ghost</option>
+            <option>Dragon</option>
+            <option>Dark</option>
+            <option>Steel</option>
+            <option>Fairy</option>
+        </select>
+        <button class='typingformat' onclick='pageturn()'>Next</button>
     </body>
 
 </html>

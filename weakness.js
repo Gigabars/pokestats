@@ -62,8 +62,8 @@ function if4xWeak()
 
 function weakness()
 {
-var type1out = document.querySelector("#type1box").value;
-var type2out = document.querySelector("#type2box").value;
+//var type1out = document.querySelector("#type1box").value;
+//var type2out = document.querySelector("#type2box").value;
 type1out = type1out.toLowerCase();
 type2out = type2out.toLowerCase();
     //Remove ALL other data
